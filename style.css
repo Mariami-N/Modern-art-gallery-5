@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 .contaner{
     max-width: 1440px;
@@ -6,7 +6,6 @@
     height: 2554px;
     margin: 0 auto;
     position: relative;
-    background-color: aqua;
 }
 .black{
     position: absolute;
@@ -14,15 +13,16 @@
     left: 0; */
     width: 450px;
     height: 800px;
-    background-color: darkkhaki;
+    background-color: black;
 }
 h1{
     position: absolute;
     top: 189px;
-    left: 243px;
+    left: 165px;
     font-family: "big shoulders Display";
     font-weight: 900;
     font-size: 96px;
+    font-style: normal;
     line-height: 88px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -30,7 +30,7 @@ h1{
 h2{
     position: absolute;
     top: 277px;
-    left: 243px;
+    left: 165px;
     font-family: "big shoulders Display";
     font-weight: 900;
     font-size: 96px;
@@ -41,31 +41,35 @@ h2{
 h3{
     position: absolute;
     top: 189px;
-    left: 430px;
+    left: 447px;
     font-family: "big shoulders Display";
     font-weight: 900;
     font-size: 96px;
     line-height: 88px;
     text-transform: uppercase;
-    color: black;  
+    color: black;
 }
-.second{
+h4{
     position: absolute;
-    top: 0;
-    left: 450px;
-    width:  990px;
-    height: 800px;
+    top: 277px;
+    left: 447px;
+    font-family: "big shoulders Display";
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: black;
 }
 .woman{
     position: absolute;
     top: 0;
+    /* opacity: 0.5; */
     left: 450px;
     width: 540px;
     height: 800px;
 }
-p{
+.arts{
     position: absolute;
-    overflow: hidden;
     width: 350px;
     height: 160px;
     width: 350px;
@@ -78,5 +82,160 @@ p{
     font-size: 22px;
     line-height: 32px;
     color: #444444;
-
+}
+button{
+    position: absolute;
+    top: 414px;
+    right: 310px;
+    width: 204px;
+    height: 72px;
+    color: #FFFFFF;
+    background-color: black;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+}
+.button{
+    position: absolute;
+    top: 414px;
+    right: 254px;
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+}
+.text{
+    position: absolute;
+    top: 1040px;
+    left: 165px;
+    width: 350px;
+    height: 280px;
+}
+h5{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    width: 350px;
+    left: 120px;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;   
+}
+.wander{
+    width: 350px;
+    height: 128px;
+    margin-top: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+}
+.photo1{
+position: absolute;
+top: 980px;
+right: 164px;
+width: 635px;
+height: 400px;
+}
+.photo2{
+    position: absolute;
+    top: 1410px;
+    left: 165px;
+    width: 635px;
+    height: 720px;
+}
+.photo3{
+    position: absolute;
+    top: 1410px;
+    right: 164px;
+    width: 445px;
+    height: 313px;
+}
+.blacklit{
+    background-color: black;
+    width: 445px;
+    height: 377px;
+    position: absolute;
+    bottom: 424px;
+    right: 164px;
+}
+h6{
+    width: 350px;
+    height: 120px;
+    margin-top: 65px;
+    margin-left: 48px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.blacklit p{
+    width: 350px;
+    height: 96px;
+    margin-top: 32px;
+    margin-left: 48px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-top:  80px;
+    height:  165px;
+    width: 1440px;
+    height: 244px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot{
+    /* margin-left: 165px; */
+    width: 1110px;
+    height: 84px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    justify-content: space-between;
+}
+footer p{
+    width: 430px;
+    height: 84px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.icon{
+    width: 110px;
+}
+.fb{
+    width: 20px;
+    height: 20px;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.twit{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
 }
