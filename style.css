@@ -15,7 +15,7 @@
     height: 800px;
     background-color: black;
 }
-h1{
+.mod{
     position: absolute;
     top: 189px;
     left: 165px;
@@ -27,7 +27,7 @@ h1{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-h2{
+.gal{
     position: absolute;
     top: 277px;
     left: 165px;
@@ -38,7 +38,7 @@ h2{
     text-transform: uppercase;
     color: #FFFFFF;  
 }
-h3{
+.part1{
     position: absolute;
     top: 189px;
     left: 447px;
@@ -98,6 +98,9 @@ button{
     line-height: 24px;
     letter-spacing: 3.63636px;
 }
+button:hover{
+    background-color: #D5966C;
+}
 .button{
     position: absolute;
     top: 414px;
@@ -105,6 +108,13 @@ button{
     width: 56px;
     height: 72px;
     background-color: #D5966C;
+}
+.button:hover{
+    background-color: black;
+}
+.butt{
+    width: 8px;
+    height: 24px;
 }
 .text{
     position: absolute;
@@ -189,7 +199,7 @@ h6{
     line-height: 32px;
     color: #FFFFFF;
 }
-footer{
+.foot1{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -229,6 +239,9 @@ footer p{
     width: 20px;
     height: 20px;
 }
+.fb :hover{
+    fill: #D5966C;
+}
 .insta{
     width: 20px;
     height: 20px;
@@ -239,3 +252,179 @@ footer p{
     height: 20px;
     margin-left: 20px;
 }
+
+.contaner2{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.map{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    top: 0;
+    left: 0;
+}
+.locat{
+    position: absolute;
+    width: 66px;
+    height: 88px;
+    top: 256px ;
+    left: 687px;
+}
+.backtohome{
+    position: absolute;
+    top: 0;
+    left: 212px;
+    width: 208px;
+    height: 72px;
+    background-color: black;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+}
+.backtohome :hover{
+background-color: #D5966C;
+}
+.button2{
+    position: absolute;
+    top: 0;
+    left: 156px;
+    background-color: #D5966C;
+    width: 56px;
+    height: 72px;
+}
+.button2:hover{
+    background-color: black;
+}
+.butt2{
+    width: 8px;
+    height: 24px;
+}
+section{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 548px;
+    left: 0 ;
+    top: 600px ;
+    background-color: black;
+}
+.black2{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 316px;
+}
+.satauri{
+    width: 350px;
+    height: 140px;
+}
+.satauri1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.satauri2{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text2{
+width: 555px;
+height: 316px;
+}
+.king99{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #D5966C;
+}
+.newport{
+    margin-top: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.ri02{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.united{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF; 
+}
+.ournewly{
+    margin-top: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.foot2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1148px;
+    width: 1440px;
+    height: 244px;
+    background-color: #D5966C ;
+}
+.footdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 84px;
+}
+.themodern{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #151515;
+}
+.fb2 :hover{
+    fill: white;
+}
+.insta2{
+    margin-left: 20px;
+}
+.twit2{
+    margin-left: 20px;
+}
+
+
+
