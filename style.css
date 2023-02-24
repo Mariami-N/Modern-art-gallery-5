@@ -106,6 +106,7 @@ button{
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 3.63636px;
+    border: none;
 }
 button:hover{
     background-color: #D5966C;
@@ -117,6 +118,7 @@ button:hover{
     width: 56px;
     height: 72px;
     background-color: #D5966C;
+    border: none;
 }
 .button:hover{
     background-color: black;
@@ -587,6 +589,7 @@ footer p{
     height: 600px;
     top: 0;
     left: 0;
+    display: block;
 }
 .map3{
     display: none;
@@ -671,15 +674,16 @@ section{
     height: 2811px;
 }
 .woman{
-    display: none;
+display: none;
 }
-.woman2{
+ .woman2{
     position: absolute;
     top: 0;
     left: 0;
     width: 375px;
     height: 240px;
-}
+    display: block;
+} 
 .modernartgal{
     display: none;
 }
@@ -721,10 +725,10 @@ button{
     height: 320px;
 }
 .text{
-    top: 1095px;
+    margin-top: 240px;
     left: 16px;
     width: 343px;
-    height: 223px;
+    height: 320px;
 }
 h5{
     width: 343px;
@@ -798,9 +802,10 @@ h6{
 .map3{
     position: absolute;
     width: 375px;
-    height: 574px;
+    height: 600px;
     top: 0;
     left: 0;
+    display: block;
 }
 .locat{
     width: 66px;
@@ -844,6 +849,10 @@ section{
 .satauri2{
     display: none;
 }
+.text2{
+    Width: 343px;
+    Height: 296p;
+}
  .satauri3{
     font-family: 'Big Shoulders Display';
     font-style: normal;
@@ -852,26 +861,28 @@ section{
     line-height: 45px;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: block;
 } 
 .king99{
     font-size: 32px;
     line-height: 32px;
+    margin-bottom:5px ;
 }
 .newport{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     margin-top: 20px;
 }
 .ri02{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
 }
 .united{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
 }
 .ournewly{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     width: 300px;
     margin-top: 20px;
